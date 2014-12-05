@@ -7,13 +7,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/localidadmod"
-        android:hint="Localidad" />
+        android:hint="@string/localidad" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/direccionmod"
-        android:hint="Direccion" />
+        android:hint="@string/direccion" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/preciomod"
-        android:hint="Precio" />
+        android:hint="@string/precio" />
 
 
     <LinearLayout
@@ -61,7 +61,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aceptar"
+            android:text="@string/aceptar"
             android:id="@+id/aceptarmod"
             android:onClick="modificar"
             android:layout_weight="1" />
@@ -69,7 +69,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancelar"
+            android:text="@string/cancelar"
             android:id="@+id/cancelarmod"
             android:onClick="cancelar"
             android:layout_gravity="center_horizontal"

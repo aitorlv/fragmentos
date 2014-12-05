@@ -24,8 +24,7 @@ import java.util.ArrayList;
 public class FragmentoFotos extends Fragment {
     private View v;
     private ImageView img;
-    private int mover=0;
-    Context contexto;
+
 
     public FragmentoFotos() {
         // Required empty public constructor
